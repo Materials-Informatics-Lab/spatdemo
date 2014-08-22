@@ -1,14 +1,14 @@
 # Site settings
-# Use Tony Fast's credentials to moderate the entire site.
-title: Materials Informatics Course Blog
-email: tony.fast@gmail.com
+# Enter your own credentials here
+title: "My Blog"
+email: you@somewhere.com
 description: >
-  Course Blog Page for the GT Materials Informatics Course
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "Materials-Informatics-Lab.github.io" # the base hostname & protocol for your site
-twitter_username: docfast
-github_username:  tonyfast
-disqus: tonyfast
+  Tell us about your site
+baseurl: "/research-pages" # replace ``/research-pages`` with the name of the parents repository
+url: "Materials-Informatics-Lab.github.io" # replate ``Materials-Informatics-Lab`` with your Github username
+twitter_username: twitterhandle
+github_username:  username
+disqus: anotheruser
 
 # Build settings
 markdown: kramdown
