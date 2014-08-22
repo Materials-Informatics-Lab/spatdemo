@@ -1,10 +1,11 @@
 # Site settings
+# Use Tony Fast's credentials to moderate the entire site.
 title: Materials Informatics Course Blog
 email: tony.fast@gmail.com
-description: > 
+description: >
   Course Blog Page for the GT Materials Informatics Course
-baseurl: "/Materials-Informatics-Lab" # the subpath of your site, e.g. /blog/
-url: "http://tonyfast.com" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "Materials-Informatics-Lab.github.io" # the base hostname & protocol for your site
 twitter_username: docfast
 github_username:  tonyfast
 disqus: tonyfast
