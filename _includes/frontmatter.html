@@ -1,0 +1,23 @@
+<div class="col-sm-12 col-md-12 col-lg-12">
+<div class="panel-group" id="fmaccordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+        <a data-toggle="collapse" data-parent="#fmaccordion" href="#frontmatter">
+          Front Matter
+        </a>
+    </div>
+    <div id="frontmatter" class="panel-collapse collapse">
+      <div class="panel-body">
+        <i>Copy and Paste the content below into a JSON parser</i>
+        {% capture json %}
+        {{page | jsonify }}
+        {% endcapture %}
+        {% assign call = json | split:',"content"' %}
+        {% highlight JavaScript %}
+          {{call[0]}}}
+        {% endhighlight %}
+      </div>
+    </div>
+  </div>
+</div>
+</div>
