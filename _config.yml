@@ -8,7 +8,7 @@ baseurl: "/research-pages" # replace ``/research-pages`` with the name of the pa
 url: "Materials-Informatics-Lab.github.io" # replate ``Materials-Informatics-Lab`` with your Github username
 twitter_username: twitterhandle
 github_username:  username
-disqus: anotheruser
+disqus: tonyfast
 
 # Build settings
 markdown: kramdown
