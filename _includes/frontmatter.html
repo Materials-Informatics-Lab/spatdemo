@@ -12,7 +12,7 @@
         {% capture json %}
         {{page | jsonify }}
         {% endcapture %}
-        {% assign call = json | split:',"content"' %}
+        {% assign call = json | split:',"next"' %}
         {% highlight JavaScript %}
           {{call[0]}}}
         {% endhighlight %}
