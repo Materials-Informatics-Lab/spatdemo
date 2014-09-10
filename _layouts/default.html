@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
 
   <body>
-
-    {% include header.html %}
-
     <div class="page-content">
       <div class="wrapper">
+        <div class="notebook-bg">
+        {% include header.html %}
         {{ content }}
+        </div>
+        {% include references.html %}
         {% include paginate.html %}
+{% include disqus.html %}
       </div>
 
     </div>
