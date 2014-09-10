@@ -7,7 +7,6 @@ description: >
 baseurl: "/research-pages" # replace ``/research-pages`` with the name of the parents repository
 url: "Materials-Informatics-Lab.github.io" # replate ``Materials-Informatics-Lab`` with your Github username
 twitter_username: twitterhandle
-github_username:  username
 disqus: tonyfast
 
 # Build settings
@@ -16,3 +15,10 @@ markdown: kramdown
 # Pagination of Posts efficiently organizes posts
 # Using Pagination in Jekyll here: http://jekyllrb.com/docs/pagination/
 paginate: 5
+
+
+gh:
+  user: Materials-Informatics-Lab
+  repo: research-pages
+  # Branch hosting Github pages
+  branch: gh-pages
