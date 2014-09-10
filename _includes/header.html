@@ -2,22 +2,45 @@
 <div class="dropdown" style="float:right">
   <div class="btn-group">
   <button class="btn btn-default" type="button" >
-    <a href="{{site.baseurl}}/"><img src="https://avatars.githubusercontent.com/u/8523520?v=2&s=50" style="border:0;"></a>
+    <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/III-icon.png" style="border:0;" ></a>
   </button>
 
 
-  <button class="btn btn-default" type="button" style="height:64px;">
-  <a href="http://github.com/{{site.gh.user}}/{{site.gh.repo}}/tree/{{site.gh.branch}}/{{page.path}}" target="_blank" title="Raw Page Content"><span class="mega-octicon octicon-mark-github"></span></a>
+  <button class="btn btn-default" type="button" style="height:54px;">
+  <a href="http://github.com/{{site.gh.user}}/{{site.gh.repo}}/tree/{{site.gh.branch}}/{{page.path}}" target="_blank" title="Raw Page Content">
+    <span class="octicon octicon-mark-github"></span></a>
 </button>
 
 {% if page.path != 'index.html' %}
-<button class="btn btn-default" type="button" style="height:64px;" data-toggle="modal" data-target="#jsonModal">
-<span class="mega-octicon octicon-file-binary"></span>
+<button class="btn btn-default" type="button" style="height:54px;">
+<a href="http://github.com/{{site.gh.user}}/{{site.gh.repo}}/edit/{{site.gh.branch}}/{{page.path}}" target="_blank" title="Raw Page Content">
+  <span class="octicon octicon-pencil"></span></a>
 </button>
+
+<button class="btn btn-default" type="button" style="height:54px;" data-toggle="modal" data-target="#jsonModal">
+<span class="octicon octicon-file-binary"></span>
+</button>
+
+{% else %}
+
+<button class="btn btn-default" type="button" style="height:54px;">
+<a href="http://github.com/{{site.gh.user}}/{{site.gh.repo}}/new/{{site.gh.branch}}" target="_blank" title="Raw Page Content"><span class="octicon octicon-plus"></span></a>
+</button>
+
+<button class="btn btn-default" type="button" style="height:54px;">
+<a href="http://github.com/{{site.gh.user}}/{{site.gh.repo}}/issues" target="_blank" title="Raw Page Content"><span class="octicon octicon-question"></span></a>
+</button>
+
+<button class="btn btn-default" type="button" style="height:54px;">
+<a href="http://github.com/{{site.gh.user}}/{{site.gh.repo}}/milestones" target="_blank" title="Raw Page Content"><span class="octicon octicon-calendar"></span></a>
+</button>
+
+
 {% endif %}
 
-  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" style="height:64px;">
-    <span class="octicon octicon-plus"></span></span>
+
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" style="height:54px;">
+    <span class="octicon octicon-chevron-down"></span></span>
   </button>
 
 
