@@ -1,0 +1,29 @@
+---
+title: Data Pages
+permalink: /data/
+layout: page
+markdownify: false
+---
+
+<h1>Data Pages</h1>
+{% for datum in site.data %}
+
+{% assign thumburl =  site.data | map:datum[0] | map:'thumb' %}
+{% capture json %}{{datum[1] | jsonify }}{% endcapture %}
+
+<h2 id="{{datum[0] | escape}}">{% if thumburl %}<img src="{{thumburl}}" height="50"/>{% endif %}&nbsp;&nbsp;{{datum[0]}}</h2>
+<div class="well"><pre>
+{{json}}</pre></div>
+<!--
+<div class="col-sm-6 col-md-4">
+  <div class="thumbnail">
+    <img data-src="{{thumburl}}" alt="...">
+    <div class="caption">
+      <h3>{{datum[0]}}</h3>
+
+    </div>
+  </div>
+</div>
+-->
+
+{% endfor %}
