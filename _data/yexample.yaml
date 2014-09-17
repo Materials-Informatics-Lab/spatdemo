@@ -1,0 +1,21 @@
+# An example data file pointing to external resources for the data
+description: >
+  Segmented $\alpha&-$\beta$ Titanium micrographs from Pete Collins at UNT.
+# Volume Fraction Calculation
+gist: https://gist.github.com/tonyfast/afafb762798e9204bac4
+volumefraction: 0.60206419148851
+tags:
+  - Experiment1
+  - AnalysisMagic
+units:
+  - x: 10 #microns/pixel
+    y: 10 #microns/pixel
+# Images avaiable on Flickr
+flickr:
+  view: https://www.flickr.com/photos/tonyfast/12972815434/in/set-72157641959260094
+  # parent set
+  set: https://www.flickr.com/photos/tonyfast/sets/72157641959260094/
+author:
+  - name: Tony Fast
+  - email: tony.fast@gmail.com
+thumb: https://farm3.staticflickr.com/2689/12972815434_734b24ef1d_q.jpg
