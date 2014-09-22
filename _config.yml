@@ -1,10 +1,10 @@
 # Site settings
 # Enter your own credentials here
-title: "My Blog"
-email: you@somewhere.com
+title: "Spatial Statistics Demo"
+email: tony.fast@gmail.com
 description: >
   Tell us about your site
-baseurl: "/research-pages" # replace ``/research-pages`` with the name of the parents repository
+baseurl: "/spatdemo" # replace ``/research-pages`` with the name of the parents repository
 url: "Materials-Informatics-Lab.github.io" # replate ``Materials-Informatics-Lab`` with your Github username
 twitter_username: twitterhandle
 disqus: tonyfast
@@ -19,6 +19,6 @@ paginate: 5
 
 gh:
   user: Materials-Informatics-Lab
-  repo: research-pages
+  repo: spatdemo
   # Branch hosting Github pages
   branch: gh-pages
