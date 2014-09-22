@@ -1,0 +1,96 @@
+---
+layout: post
+title: The Required Demo Tools
+tagline: >
+  Github tools for managing local and remote data/code relationships.
+
+tools:
+- url: https://github.com/Materials-Informatics-Lab/research-pages
+  description: Github pages template for research science
+  name: Research Pages
+- url: https://github.com/Materials-Informatics-Lab/researchp-tools
+  description: Extensible tools to parse JSON and YAML requests for data and codes.
+  name: RP Tools
+- url: https://github.com/tonyfast/SpatialStatisticsFFT
+  description: A vectorized Matlab function for computing Pair Correlation Functions and Vector Resolved Statistics
+  name: Spatial Statistics
+- url: https://github.com/hurtstotouchfire/jsonlab
+  description: JSON parser for Matlab
+  name: JSONlab
+- url: http://yamlmatlab.googlecode.com/files/YAMLMatlab_0.4.3.zip
+  description: YAML parser for matlab
+  name: YAML-Matlab
+
+references:
+- http://git-scm.com/downloads
+- https://windows.github.com/
+- https://mac.github.com
+- http://jekyllrb.com/
+---
+
+
+## Code and Data Collaboration Tools
+
+* [Download the ``git`` command line tools]({{page.references[0]}})
+* **Windows** - [Github for Windows]({{page.references[1]}})
+* **Mac** - [Github for Mac]({{page.references[2]}})
+  * If you are on a Mac then you can optionally install [Jekyll]({{page.references[3]}}) for
+  improved productivity.
+
+## Presentation Tool
+
+{% assign id =0 %}
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h5><a href="{{page.tools[id].url}}">{{page.tools[id].name}}</a></h5>
+  </div>
+  <div class="panel-body">
+    {{page.tools[id].description}}
+  </div>
+</div>
+
+## Markup Tools
+
+{% assign id = 1 %}
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h5><a href="{{page.tools[id].url}}">{{page.tools[id].name}}</a></h5>
+  </div>
+  <div class="panel-body">
+    {{page.tools[id].description}}
+  </div>
+</div>
+
+{% assign id = 3 %}
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h5><a href="{{page.tools[id].url}}">{{page.tools[id].name}}</a></h5>
+  </div>
+  <div class="panel-body">
+    {{page.tools[id].description}}
+  </div>
+</div>
+
+{% assign id = 4 %}
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h5><a href="{{page.tools[id].url}}">{{page.tools[id].name}}</a></h5>
+  </div>
+  <div class="panel-body">
+    {{page.tools[id].description}}
+  </div>
+</div>
+
+
+
+## Analytics Tools
+
+{% assign id = 2 %}
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h5><a href="{{page.tools[id].url}}">{{page.tools[id].name}}</a></h5>
+  </div>
+  <div class="panel-body">
+    {{page.tools[id].description}}
+  </div>
+</div>
