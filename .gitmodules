@@ -1,3 +1,9 @@
 [submodule "extern/rp-tools"]
 	path = extern/rp-tools
 	url = https://github.com/Materials-Informatics-Lab/researchp-tools.git
+[submodule "extern/spatstats"]
+	path = extern/spatstats
+	url = https://github.com/tonyfast/SpatialStatisticsFFT.git
+[submodule "extern/jsonlab"]
+	path = extern/jsonlab
+	url = https://github.com/hurtstotouchfire/jsonlab.git
