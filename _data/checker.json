@@ -1,0 +1,8 @@
+{
+	"name": "Checkerboard",
+	"numcheck": 8,
+	"matlab": {
+		"code": "round(checkerboard( data.('numcheck' ) ) )"
+	},
+	"size": [64,64]
+}
