@@ -1,0 +1,3 @@
+[submodule "extern/rp-tools"]
+	path = extern/rp-tools
+	url = https://github.com/Materials-Informatics-Lab/researchp-tools.git
